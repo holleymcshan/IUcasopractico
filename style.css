@@ -1,0 +1,170 @@
+
+body {
+  clear: both;
+  background-color: #181818;
+  width:100%;
+  color: white;
+}
+
+header {
+  width: 97%;
+  padding: 0%;
+}
+
+
+.contletter{
+	padding: 1%;
+	margin-top: 3%;
+	margin-left: 22.5%;
+}
+
+.contlitle{
+	margin-top: 0%;
+	margin-left: 42.5%;
+}
+
+.cont {
+	width: 45%;
+	float: left;
+	padding: 1px;
+	margin-right: 19.5%;
+}
+
+/*COLOR DEL CHECKBOX*/
+/* The container */
+.tainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.tainer input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.tainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.tainer input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.tainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.tainer .checkmark:after {
+    left: 7px;
+    top: 2.5px;
+    width: 2.5px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*COLOR DEL CHECKBOX*/
+
+.imgcontainer {
+    text-align: center;
+    margin: 10px 0 0px 0;
+    position: relative;
+}
+
+.container {
+    padding: 20px;
+	margin-left: 5%;
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #181818;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+	height: 60%;
+}
+
+.buttonLogin {
+    background-color: #2196F3;
+    color: white;
+    padding: 4px 4px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+	border-radius: 12px;
+}
+
+b {
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+
+h5 {
+	color: white;
+}
+
+input[id=email_m], input[id=mPsw] {
+    width: 95%;
+    padding: 1px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
