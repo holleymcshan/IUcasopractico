@@ -1,0 +1,67 @@
+html {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.header {
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.logo{
+  height: 60px;
+}
+
+.content {
+
+}
+
+.mainvid{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mainvidtitle{
+
+}
+
+.main{
+  width:100%;
+  height:auto;
+  float: left;
+  clear: right;
+}
+
+.info{
+  width: 100%;
+  clear: right;
+}
+
+.social{
+
+}
+
+.line{
+
+}
+
+.othervid{
+
+}
+
+.others {
+  width:250px;
+  height:150px;
+}
+
+info {
+  float: left;
+  width: 30%;
+  padding: 2%;
+  clear: right;
+  line-height: 125%;
+}
+
+i {
+  width:17px;
+}
