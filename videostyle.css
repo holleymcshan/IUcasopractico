@@ -8,6 +8,14 @@ html {
   padding: 5px;
 }
 
+.navbar-dark {
+  background-color: black;
+}
+
+.searchbar{
+  width: 300px !important;
+}
+
 .logo{
   height: 60px;
 }
