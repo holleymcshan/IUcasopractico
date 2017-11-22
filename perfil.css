@@ -1,15 +1,62 @@
 /*Style sheet for profile page*/
-body{
-  background-color: gray;
+html {
+  font-family: "Segoe UI", sans-serif;
 }
 
-.btn{
+body{
+  background-color: rgb(60,60,70);
+  color: white;
+}
+
+.header {
+  width: 100%;
+  /*border: 1px solid black;*/
+  /*padding: 5px;*/
+  padding-bottom: 20px;
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.searchbar{
+  width: 300px !important;
+}
+
+.logo{
+  height: 60px;
+}
+
+.content{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.top{
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+.user{
+  padding-left: 0;
+}
+
+.d-block{
   margin: 10px;
 }
 
 .profile-pic{
-  width: 90%;
+  width: 150px;
+}
+
+.inline{
+  display: inline;
   padding: 10px;
+  vertical-align: top;
+}
+
+.playlist{
+  padding-top: 10px;
 }
 
 .my-playlists p{
@@ -17,7 +64,8 @@ body{
 }
 
 .thumbnail{
-  width: 16%;
-  height: 80%;
+  width: 200px;
+  height: 120px;
   align-self: center;
+  background-color: black;
 }
