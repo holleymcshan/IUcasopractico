@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="videostyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
 
@@ -28,20 +29,19 @@
       <div class="row">
 
         <!--MAIN VIDEO-->
-        <div class="col-8">
+        <div class="col-7">
           <div class="mainvid">
-            <!--breadcrumb-->
+            <!--breadcrumb
             <nav aria-label="breadcrumb" role="navigation">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Library</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Data</li>
               </ol>
-            </nav>
+            </nav>-->
             <!--main video-->
-            <div class="mainvidtitle">Video title</div>
+            <div class="mainvidtitle h4">Video title</div>
             <video class="main" src="images/vid1.mp4"; controls id="vid1"></video>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <div class="info">
               <nav class="nav nav-tabs" id="myTab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Description</a>
@@ -56,27 +56,32 @@
         </div>
 
         <!--SIDEBAR-->
-        <div class="col-4">
+        <div class="col-5">
           <div class="sidebar">
             <!--like, share, add-->
             <div class="social">
+              <i class="fa fa-plus" onclick="add()"></i>
+              <div class="line" id="add">Add to playlist </div> <br>
               <i class="fa fa-heart" onclick="like()"></i>
               <div class="line" id="like">1000 likes </div> <br>
               <i class="fa fa-refresh" onclick="share()"></i>
               <div class="line" id="share">1000 sharing </div> <br>
             </div>
             <!--suggested videos-->
-            <div class="othervid">
-              Up next
-              <video class="others"; src="images/vid2.mp4"; id="vid2">
-              </video> <br>
-              <div id="2title">So close</div>
-              <video class="others"; src="images/vid3.mp4"; id="vid3">
-              </video> <br>
-              <div id="3title">Knockout</div>
-              <video class="others"; src="images/vid4.mp4"; id="vid4">
-              </video> <br>
-              <div id="4title">Majestic Human Jump</div>
+            <div class="othervids">
+              Up next <br>
+              <div class="othervid">
+                <video class="others"; src="images/vid2.mp4"; id="vid2"></video>
+                <div class="othertitle"> So close </div>
+              </div>
+              <div class="othervid">
+                <video class="others"; src="images/vid3.mp4"; id="vid3"></video>
+                <div class="othertitle"> Knockout </div>
+              </div>
+              <div class="othervid">
+                <video class="others"; src="images/vid4.mp4"; id="vid4"></video>
+                <div class="othertitle"> Majestic Human Jump </div>
+              </div>
             </div>
           </div>
         </div>
