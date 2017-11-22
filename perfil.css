@@ -1,0 +1,23 @@
+/*Style sheet for profile page*/
+body{
+  background-color: gray;
+}
+
+.btn{
+  margin: 10px;
+}
+
+.profile-pic{
+  width: 90%;
+  padding: 10px;
+}
+
+.my-playlists p{
+  font-size: 12pt;
+}
+
+.thumbnail{
+  width: 16%;
+  height: 80%;
+  align-self: center;
+}
