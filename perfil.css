@@ -17,7 +17,8 @@ body{
 }
 
 .thumbnail{
-  width: 16%;
-  height: 80%;
+  width: 200px;
+  height: 120px;
   align-self: center;
+  background-color: black;
 }
