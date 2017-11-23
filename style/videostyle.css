@@ -48,7 +48,11 @@ body{
 
 .nav-tabs{
   clear: both;
-  padding-top: 15px;
+  padding-top: 20px;
+}
+
+.tab-content{
+  padding-top: 5px;
 }
 
 .sidebar{

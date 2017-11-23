@@ -11,45 +11,58 @@
   </head>
 
   <body>
-    <div class="sticky-top border" id="header">
-      <h1>Placeholder: This is our header!!!</h1>
-    </div>
-    <div class="row border border-primary m-3"> <!-- Row: icon, buttons for manage and create lista de reproduccións -->
-      <div class="col-2"> <!-- Icon -->
-        <img class="profile-pic" src="./images/profile.png" alt="profile icon" />
-      </div>
-      <div class="col-9 ">
-        <br>
-        <h3> Username </h3>
-      </div>
-      <div class="col-1">
-        <button type="button" class="btn btn-primary d-block float-right ">Crear lista de reproducción</button>
-        <button type="button" class="btn btn-primary  d-block float-right">Editar lista de reproducción</button>
-      </div>
-    </div>
-    <h4> Mis videos favoritos </h2>
-    <div class="row m-3"> <!-- Row: Favorites gallery -->
-      <video src="images/vid1.mp4" class="thumbnail m-2"></video>
-      <video src="images/vid2.mp4" class="thumbnail m-2"></video>
-      <img src="http://www.well-beingsecrets.com/wp-content/uploads/health-effects-of-matcha-tea.jpg" alt="matcha" class="thumbnail m-2">
-      <img src="https://i.pinimg.com/originals/f3/31/07/f33107c9c30dbae80c3024f8e666899e.jpg" alt="string and nail" class="thumbnail m-2">
-      <video src="images/vid3.mp4" class="thumbnail m-2"></video>
-    </div>
-    <h4> Mis listas de reproduccións </h2>
-    <div class="row my-playlists m-3" > <!-- Row: My playlists -->
-      <p> No has creado ningun lista de reproducción. </p>
+    <!-- semi reasonable header -->
+    <div class="header">
+      <nav class="navbar navbar-dark justify-content-between">
+        <img class="logo" src="images/logo.jpg">
+        <form class="form-inline">
+          <input class="searchbar form-control mx-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
     </div>
 
-    <h4> Listas de reproducción guardados </h2>
-    <div class="row m-3"> <!-- Row: Saved. Eventually replace with images/videos of class "thumbnail"-->
-      <div class="thumbnail border bg-light m-2">
-        cocer y tejer<br>
+    <div class="content">
+      <div class="row m-3 top"> <!-- Row: icon, buttons for manage and create lista de reproduccións -->
+        <div class="col-11 user"> <!-- Icon -->
+          <img class="profile-pic" src="./images/profile.png" alt="profile icon" />
+          <h4 class="inline"> Username </h4>
+        </div>
+        <div class="col-1">
+          <button type="button" class="btn btn-primary d-block float-right ">Crear lista de reproducción</button>
+          <button type="button" class="btn btn-primary  d-block float-right">Editar lista de reproducción</button>
+        </div>
       </div>
-      <div class="thumbnail border bg-light m-2">
-        Comida <br>
+
+      <div class="playlist">
+        <h4> Mis videos favoritos </h4>
+        <div class="row m-3"> <!-- Row: Favorites gallery -->
+          <video src="images/vid1.mp4" class="thumbnail m-2"></video>
+          <video src="images/vid2.mp4" class="thumbnail m-2"></video>
+          <img src="http://www.well-beingsecrets.com/wp-content/uploads/health-effects-of-matcha-tea.jpg" alt="matcha" class="thumbnail m-2">
+          <img src="https://i.pinimg.com/originals/f3/31/07/f33107c9c30dbae80c3024f8e666899e.jpg" alt="string and nail" class="thumbnail m-2">
+          <video src="images/vid3.mp4" class="thumbnail m-2"></video>
+        </div>
       </div>
-      <div class="thumbnail border bg-light m-2">
-        Título de lista #3 <br>
+      <div class="playlist">
+        <h4> Mis listas de reproduccións </h4>
+        <div class="row my-playlists m-3" > <!-- Row: My playlists -->
+          <p> No has creado ningun lista de reproducción. </p>
+        </div>
+      </div>
+      <div class="playlist">
+        <h4> Listas de reproducción guardados </h4>
+        <div class="row m-3"> <!-- Row: Saved. Eventually replace with images/videos of class "thumbnail"-->
+          <div class="col-2 border bg-dark m-2">
+            cocer y tejer<br>
+          </div>
+          <div class="col-2 border bg-dark m-2">
+            Comida <br>
+          </div>
+          <div class="col-2 border bg-dark m-2">
+            Título de lista #3 <br>
+          </div>
+        </div>
       </div>
     </div>
 

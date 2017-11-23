@@ -1,0 +1,106 @@
+html {
+  font-family: "Segoe UI", sans-serif;
+}
+
+body{
+  background-color: rgb(60,60,70);
+  color: white;
+}
+
+.header {
+  width: 100%;
+  /*border: 1px solid black;*/
+  /*padding: 5px;*/
+  padding-bottom: 20px;
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.searchbar{
+  width: 300px !important;
+}
+
+.logo{
+  height: 60px;
+}
+
+.content {
+
+}
+
+.mainvid{
+  padding-left: 5%;
+  padding-right: 10px;
+}
+
+.mainvidtitle{
+
+}
+
+.main{
+  width:100%;
+  height:auto;
+  float: left;
+  clear: right;
+}
+
+.nav-tabs{
+  clear: both;
+  padding-top: 20px;
+}
+
+.tab-content{
+  padding-top: 5px;
+}
+
+.sidebar{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 35px;
+  border-right: 1px solid gray;
+}
+
+.results{
+  padding-top: 10px;
+}
+
+.othervid{
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.others {
+  width:200px;
+  height:120px;
+  background-color: black;
+  float: left;
+}
+
+.othertitle{
+  float: left;
+  padding-left: 10px;
+}
+
+.social{
+    padding-top: 5px;
+}
+
+.line{
+  display: inline;
+  padding: 3px;
+}
+
+info {
+  float: left;
+  width: 30%;
+  padding: 2%;
+  clear: right;
+  line-height: 125%;
+}
+
+i {
+  width:17px;
+}
